@@ -22,7 +22,6 @@ public class AnswerResource {
 	}
 
 
-
 	@GetMapping("*")
 	public ResponseEntity<String> answer(@RequestParam("q") String query) {
 		logger.info("Received query \"{}\"", query);
